@@ -1,0 +1,55 @@
+
+@import url ('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 5%;
+    text-align: center;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 10%;
+}
+
+.superior {
+    background: rgb(249,51,16,0.8);
+    padding: 2%;
+}
+
+.media {
+    background: rgb(249,51,16,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 2%;
+}
+.dia-pedido, .estado, .dia-entrega, .hora-entrega {
+    margin: 1%;
+}
+
+.inferior {
+    background: rgb(249,51,16,0.4);
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.pedido img {
+    width: 20%;
+}
+
+.no-preparado, .demorado-camion, .demorado-lluvias {
+    display: none;
+}
+
+.consulta {
+    margin: 10%;
+}
